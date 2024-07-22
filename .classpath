@@ -3,16 +3,16 @@
   <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11"/>
   <classpathentry kind="src" path="src/test/java"/>
   <classpathentry kind="output" path="gauge_bin"/>
-  <classpathentry kind="lib" path="C:\Users\syake\AppData\Roaming\Gauge\plugins\java\0.11.0\libs\assertj-core-3.26.0.jar"/>
-  <classpathentry kind="lib" path="C:\Users\syake\AppData\Roaming\Gauge\plugins\java\0.11.0\libs\gauge-java-0.11.0.jar"/>
-  <classpathentry kind="lib" path="C:\Users\syake\AppData\Roaming\Gauge\plugins\java\0.11.0\libs\junit-4.13.2.jar"/>
-  <classpathentry kind="lib" path="C:\Users\syake\AppData\Roaming\Gauge\plugins\java\0.11.0\libs\webdrivermanager-5.8.0.jar"/>
-  <classpathentry kind="lib" path="C:\Users\syake\AppData\Roaming\Gauge\plugins\java\0.11.0\libs\selenium-chrome-driver-4.21.0.jar"/>
-  <classpathentry kind="lib" path="C:\Users\syake\AppData\Roaming\Gauge\plugins\java\0.11.0\libs\selenium-chromium-driver-4.21.0.jar"/>
-  <classpathentry kind="lib" path="C:\Users\syake\AppData\Roaming\Gauge\plugins\java\0.11.0\libs\selenium-api-4.21.0.jar"/>
-  <classpathentry kind="lib" path="C:\Users\syake\AppData\Roaming\Gauge\plugins\java\0.11.0\libs\selenium-remote-driver-4.21.0.jar"/>
-  <classpathentry kind="lib" path="C:\Users\syake\AppData\Roaming\Gauge\plugins\java\0.11.0\libs\selenium-java-4.21.0.jar"/>
-  <classpathentry kind="lib" path="C:\Users\syake\AppData\Roaming\Gauge\plugins\java\0.11.0\libs\selenium-support-4.21.0.jar"/>
-  <classpathentry kind="lib" path="C:\Users\syake\AppData\Roaming\Gauge\plugins\java\0.11.0\libs\httpclient5-5.2.1.jar"/>
-  <classpathentry kind="lib" path="C:\Users\syake\AppData\Roaming\Gauge\plugins\java\0.11.0\libs\webdrivermanager-5.9.1-fat.jar"/>
+  <classpathentry kind="lib" path="src/lib/assertj-core-3.26.0.jar"/>
+  <classpathentry kind="lib" path="src/lib/gauge-java-0.11.0.jar"/>
+  <classpathentry kind="lib" path="src/lib/junit-4.13.2.jar"/>
+  <classpathentry kind="lib" path="src/lib/webdrivermanager-5.8.0.jar"/>
+  <classpathentry kind="lib" path="src/lib/selenium-chrome-driver-4.21.0.jar"/>
+  <classpathentry kind="lib" path="src/lib/selenium-chromium-driver-4.21.0.jar"/>
+  <classpathentry kind="lib" path="src/lib/selenium-api-4.21.0.jar"/>
+  <classpathentry kind="lib" path="src/lib/selenium-remote-driver-4.21.0.jar"/>
+  <classpathentry kind="lib" path="src/lib/selenium-java-4.21.0.jar"/>
+  <classpathentry kind="lib" path="src/lib/selenium-support-4.21.0.jar"/>
+  <classpathentry kind="lib" path="src/lib/httpclient5-5.2.1.jar"/>
+  <classpathentry kind="lib" path="src/lib/webdrivermanager-5.9.1-fat.jar"/>
 </classpath>
