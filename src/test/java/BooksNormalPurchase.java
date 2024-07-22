@@ -34,13 +34,13 @@ public class BooksNormalPurchase{
         webDriver.get(BASKET_URL);
     }
     @Step("購入手続きを押下")
-    public void searchText(){
+    public void clickPurchase(){
         // 買い物かごの購入手続きボタンのid要素からelementを取得
         WebElement element = webDriver.findElement(By.id("js-cartBtn"));
         element.click();
     }
     @Step("<userId><password>を入力し、「次へ」を押下し、Step4に遷移する")
-    public void checkTitle(String userId, String password) {
+    public void login(String userId, String password) {
         // googleの検索ボックスはName要素にqが設定されている
         WebElement idForm = webDriver.findElement(By.name("u"));
         WebElement passForm = webDriver.findElement(By.name("p"));
