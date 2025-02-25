@@ -18,12 +18,11 @@ public class TestUtils {
 
     /**
      * 表示部分をスクリーンショット
-     * Users/ダウンロードにキャプチャが保存されます
      * @param WebDriver driver
      * @throws IOException
      */
     public static void screenShot(WebDriver driver) throws IOException{
-        String dowloadsPath = System.getProperty("user.home") + "\\Downloads" ;
+        String dowloadsPath = System.getProperty("user.home");
         LocalDateTime nowDate = LocalDateTime.now();
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyyMMddHHmm");
         String filename = "gauge-test-" + dtf.format(nowDate);
