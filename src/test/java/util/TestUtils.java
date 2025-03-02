@@ -22,7 +22,7 @@ public class TestUtils {
      * @throws IOException
      */
     public static void screenShot(WebDriver driver) throws IOException{
-        String dowloadsPath = System.getProperty("user.home") + "\\AppData\\Roaming\\gauge\\logs";
+        String dowloadsPath = System.getProperty("user.home");
         LocalDateTime nowDate = LocalDateTime.now();
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyyMMddHHmm");
         String filename = "gauge-test-" + dtf.format(nowDate);
